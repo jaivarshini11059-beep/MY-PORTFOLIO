@@ -1,10 +1,4 @@
-/* =========================================================
-   JAIVARSHINI PORTFOLIO
-   JAVASCRIPT
-========================================================= */
 
-
-/* ================= PRELOADER ================= */
 
 window.addEventListener("load", function () {
 
@@ -17,9 +11,6 @@ window.addEventListener("load", function () {
     }, 700);
 
 });
-
-
-/* ================= TYPING EFFECT ================= */
 
 const typingText = document.getElementById("typing-text");
 
@@ -86,8 +77,6 @@ function typeEffect() {
 typeEffect();
 
 
-/* ================= MOBILE MENU ================= */
-
 const menuBtn = document.getElementById("menuBtn");
 
 const navMenu = document.getElementById("navMenu");
@@ -135,7 +124,7 @@ navLinks.forEach(function (link) {
 });
 
 
-/* ================= NAVBAR SCROLL ================= */
+
 
 const navbar = document.querySelector(".navbar");
 
@@ -154,7 +143,6 @@ window.addEventListener("scroll", function () {
 });
 
 
-/* ================= ACTIVE NAVIGATION ================= */
 
 const sections = document.querySelectorAll("section[id]");
 
@@ -198,7 +186,6 @@ window.addEventListener("scroll", function () {
 });
 
 
-/* ================= SCROLL REVEAL ================= */
 
 const revealElements =
     document.querySelectorAll(".reveal");
@@ -237,7 +224,6 @@ revealElements.forEach(function (element) {
 });
 
 
-/* ================= SKILL ANIMATION ================= */
 
 const skillCards =
     document.querySelectorAll(".skill-card");
@@ -276,7 +262,6 @@ skillCards.forEach(function (card) {
 });
 
 
-/* ================= BACK TO TOP ================= */
 
 const backToTop =
     document.getElementById("backToTop");
@@ -310,8 +295,6 @@ backToTop.addEventListener("click", function () {
 });
 
 
-/* ================= CURSOR GLOW ================= */
-
 const cursorGlow =
     document.querySelector(".cursor-glow");
 
@@ -325,7 +308,7 @@ document.addEventListener("mousemove", function (event) {
 });
 
 
-/* ================= CONTACT FORM ================= */
+
 
 const contactForm =
     document.getElementById("contactForm");
@@ -382,8 +365,6 @@ contactForm.addEventListener("submit", function (event) {
 
 });
 
-
-/* ================= CURRENT YEAR ================= */
 
 document.getElementById("year").textContent =
     new Date().getFullYear();
